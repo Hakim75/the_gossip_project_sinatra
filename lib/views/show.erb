@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Liason Show </title>
+  </head>
+  <body>
+  <h1>PAGE POTIN </h1>
+  Voici la page du potin numéro <%=@id%>
+
+    <p> Son auteur : <%= Gossip.find(@id)[0] %></p>
+        <p> Ce qu'il a dit le salaup : <%= Gossip.find(@id)[1] %> </p>
+
+        <a href="/"> retour à all </a>
+
+
+
+
+
+  </body>
+</html>
